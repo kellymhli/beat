@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use postgresql as the database for Active Record
+gem 'pg', '>= 0.18', '< 2.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -49,8 +51,6 @@ group :test do
 end
 
 group :production do
-  # Use postgresql as the database for Active Record
-  gem 'pg', '>= 0.18', '< 2.0'
   gem 'rails_12factor'
 end
 

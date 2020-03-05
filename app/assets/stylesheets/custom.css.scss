@@ -1,0 +1,39 @@
+body {
+    background-color: #333;
+    color: #fffbed;
+}
+
+.nav-bar {
+    border-bottom: 1px solid #eaeaea;
+    padding: 8px;
+    margin: 8px 0px;
+    height: 44px;
+}
+
+.beat-logo {
+    font-size: 33px;
+    color: #fffbed;
+}
+
+.beat-logo:hover {
+    font-size: 35px;
+}
+
+.featured-block {
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 0 8px;
+    height: 300px;
+    width: 80%;
+    padding: 11px;
+    margin: 11px 0px;
+}
+
+.name {
+    padding: 11px;
+    font-size: 22px;
+}
+
+.summary {
+    padding: 8px;
+}

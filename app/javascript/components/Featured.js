@@ -3,6 +3,7 @@ import Pic from './Pic'
 import Summary from './Summary'
 import Video from './Video'
 import QA from './QA'
+import Minicon from './Minicon'
 
 const Featured = () => {
     return (
@@ -18,6 +19,7 @@ const Featured = () => {
                         <QA />
                         <QA />
                     </div>
+                    <Minicon />
                 </div>
             </div>
         </div>

@@ -50,3 +50,13 @@ body {
 .question-answer {
     margin: 8px;
 }
+
+.minicon {
+    padding: 2px;
+    margin: 3px;
+}
+
+.minicon:hover {
+    text-shadow: 0 0 3px white;
+    cursor: pointer;
+}

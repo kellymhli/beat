@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Pic from './Pic'
 import Summary from './Summary'
+import Minicon from './Minicon'
 
 const Card = () => {
     return (
@@ -11,6 +12,7 @@ const Card = () => {
                     <Pic />
                     <span className="name">Last</span>
                     <Summary />
+                    <Minicon />
                 </div>
             </div>
         </div>

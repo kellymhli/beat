@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const Pic = () => {
     return (
-        <span>Img</span>
+        <img className="profile-img" src="https://images.app.goo.gl/g6a1QUKgWQ9TKcJD7"></img>
     )
 }
 

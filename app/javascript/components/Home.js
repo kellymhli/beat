@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 import Featured from './Featured'
+import Card from './Card'
 
 class Home extends Component {
   constructor() {
@@ -12,6 +13,8 @@ class Home extends Component {
       <div>
         <NavBar />
         <Featured />
+        <Card />
+        <Card />
       </div>
     )
   }

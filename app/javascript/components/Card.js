@@ -1,27 +1,20 @@
 import React, { Component } from 'react'
 import Pic from './Pic'
 import Summary from './Summary'
-import Video from './Video'
-import QA from './QA'
 
-const Featured = () => {
+const Card = () => {
     return (
         <div align="center">
             <div className="row">
-                <div className="col-xs-6 col-xs-offset-2 featured-block">
+                <div className="col-xs-6 col-xs-offset-2 card-block">
                     <span className="name">First</span>
                     <Pic />
                     <span className="name">Last</span>
                     <Summary />
-                    <Video />
-                    <div className="row align-center">
-                        <QA />
-                        <QA />
-                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Featured
+export default Card

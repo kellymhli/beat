@@ -22,10 +22,13 @@ body {
 }
 
 .featured-block {
+    box-shadow: 0 0 8px;
+    height: 100%;
+}
+
+.card-block, .featured-block{
     border: 1px solid #eaeaea;
     border-radius: 2px;
-    box-shadow: 0 0 8px;
-    height: 300px;
     width: 80%;
     padding: 11px;
     margin: 11px 0px;
@@ -38,4 +41,12 @@ body {
 
 .summary {
     padding: 8px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.question-answer {
+    margin: 8px;
 }
